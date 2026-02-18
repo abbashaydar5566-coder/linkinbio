@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(circle at top, #000,#b22222);
+    background-size: 300% 300%;
+    animation: gradientMove 8s ease infinite;
+    font-family: "Tahoma" , sans-serif;
+}
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+img {
+    border-radius: 15%;
+}
+
+.byby h3 {
+margin-right: 85%;
+}
